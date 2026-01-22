@@ -55,7 +55,7 @@ body {
 }
 
 .hero p {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -65,36 +65,22 @@ body {
     text-align: center;
 }
 
-.card-wrapper {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    flex-wrap: wrap;
-}
-
-.service-card {
-    width: 300px;
-    background: #fff;
-    padding: 25px;
-    border-radius: 16px;
-    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+.services h2 {
+    margin-bottom: 40px;
 }
 
 
-.contact {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.contact form {
-    max-width: 320px;
+.services-column {
+    max-width: 900px;
     margin: auto;
 }
 
-.contact input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
+.service-card {
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 18px;         
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
 }
 
 
@@ -126,7 +112,6 @@ body {
 
     .nav-links a {
         margin: 10px 0;
-        font-size: 16px;
     }
 
     .nav-links.show {
@@ -135,9 +120,5 @@ body {
 
     .hero h1 {
         font-size: 28px;
-    }
-
-    .service-card {
-        width: 90%;
     }
 }
